@@ -1,5 +1,5 @@
 # NASA-Machine-Learning
-Create machine learning models capable of classifying candidate exoplanets from the raw dataset.  Conducted feature selection, data scaling.  Two classification models, Support Vector and Neural Network, were trained, hyptertuned, and tested.  
+Create machine learning models capable of classifying candidate exoplanets from the raw dataset.  Conducted feature selection and data scaling.  Two classification models, Support Vector and Neural Network, were trained, hyptertuned, and tested.  
 
 
 ## Data Preprocessing
