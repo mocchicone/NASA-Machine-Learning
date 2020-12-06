@@ -24,9 +24,9 @@ I used the sklearn library to give each feature a score to show it's importance 
 
 ## Macine Learning
 
-•	Classification Models: Support Vector and Neural Networks  
-•	Hypertune Models  
-•	Compare Models  
+The two classification models used were Support Vector and Neural Networks.  The models were trained, tested, and hyptertuned to compare the performance.  Support vector had an Accuracy score of .8 and an F1 score of .81.  The neural netork model had similar scores: Accuracy = .81, F1 score = .81.  Below is the confusion matrix for the support vector model:
+![sv_confusion_matrix](https://github.com/mocchicone/NASA-Machine-Learning/blob/main/Images/support_vector_confusion_matrix.PNG)
+
 
 
 ## Data Source
