@@ -19,7 +19,7 @@ Feature selection allows us to use only the features that have a sizable impact 
 I created a correlation matrix heatmap to get a visual of how the features correlated to the outcome variable and each ohter. 
 ![feature_selection](https://github.com/mocchicone/NASA-Machine-Learning/blob/main/Images/correlation_matrix_heatmap.PNG)
 
-I used the sklearn library to give each feature a score to show it's importance in classification.  Here we can see that KOI_depth variable has the highest score and is the most imporant feature. Based on the scrores I decided to use the top seven features in my model. 
+I used the sklearn library to give each feature a score to show its importance in classification.  Here we can see that KOI_depth variable has the highest score and is the most imporant feature. Based on the scrores I decided to use the top seven features in my model. 
 ![feature_scores](https://github.com/mocchicone/NASA-Machine-Learning/blob/main/Images/feature_scores.PNG)
 
 ## Macine Learning
