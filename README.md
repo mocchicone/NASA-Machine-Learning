@@ -16,7 +16,7 @@ I dropped any rows with missing values and removed those classified as "candidat
 ### Feature Selection
 Feature selection allows us to use only the features that have a sizable impact on the classification.  Reducing the features in the model allows for 1) quicker model training, 2) a less complex model, and 3) a reduction in overfitting the model.
 
-I created a correlation matrix heatmap to get a visual of how the features correlated to the outcome variable and eachohter. 
+I created a correlation matrix heatmap to get a visual of how the features correlated to the outcome variable and each ohter. 
 ![feature_selection](https://github.com/mocchicone/NASA-Machine-Learning/blob/main/Images/correlation_matrix_heatmap.PNG)
 
 I used the sklearn library to give each feature a score to show it's importance in classification.  Here we can see that KOI_depth variable has the highest score and is the most imporant feature. Based on the scrores I decided to use the top seven features in my model. 
@@ -32,7 +32,7 @@ I wanted to understand how the support vector model would perform with all 40 fe
 ![sv_all_features](https://github.com/mocchicone/NASA-Machine-Learning/blob/main/Images/support_vector_confusion_matrix_all_features.PNG)
 
 ## Data Source
-[dataset](https://www.kaggle.com/nasa/kepler-exoplanet-search-results)
+The Kaggle explanet dataset used can be found here: [dataset](https://www.kaggle.com/nasa/kepler-exoplanet-search-results)
 
-## Contact
+## Contact Information
 Michael Occhicone, mpocchicone@gmail.com
