@@ -27,7 +27,7 @@ I used the sklearn library to give each feature a score to show its importance i
 The two classification models used were Support Vector and Neural Networks.  The models were trained, tested, and hyptertuned to compare the performance.  Support vector had an Accuracy score of .8 and an F1 score of .81.  The neural netork model had similar scores: Accuracy = .81, F1 score = .81.  Below is the confusion matrix for the support vector model:
 ![sv_confusion_matrix](https://github.com/mocchicone/NASA-Machine-Learning/blob/main/Images/support_vector_confusion_matrix.PNG)
 
-I wanted to understand how the support vector model would perform with all 40 features.  There is the potential for overfitting the model.  The scores went up significantly!  Accuray = .99, and F1 score = .99.  Below is the support vector confustion matrix with all 40 features:
+I wanted to understand how the support vector model would perform with all 40 features included even though there is the potential for an overfitting of the model.  The scores went up significantly!  Accuray = .99, and F1 score = .99.  Below is the support vector confustion matrix with all 40 features:
 
 ![sv_all_features](https://github.com/mocchicone/NASA-Machine-Learning/blob/main/Images/support_vector_confusion_matrix_all_features.PNG)
 
