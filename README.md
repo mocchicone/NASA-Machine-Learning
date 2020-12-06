@@ -17,8 +17,7 @@ I dropped any rows with missing values and removed those classified as "candidat
 Feature selection allows us to use only the features that have a sizable impact on the classification.  Reducing the features in the model allows for 1) quicker model training, 2) a less complex model, and 3) a reduction in overfitting the model.
 
 ![feature_selection](https://github.com/mocchicone/NASA-Machine-Learning/blob/main/Images/correlation_matrix_heatmap.PNG)
-
-
+![feature_scores](https://github.com/mocchicone/NASA-Machine-Learning/blob/main/Images/feature_scores.PNG)
 ## Macine Learning
 
 •	Classification Models: Support Vector and Neural Networks  
